@@ -6,11 +6,14 @@ const notification = document.getElementById('notification-container');
 const finalMessage = document.getElementById('final-message');
 const figureParts = document.querySelectorAll('.fig-part');
 
-const wordsArray = ['Javascript', 'React', 'Angular', 'Vue', 'Vanilla'];
+const wordsArray = ['php', 'rust', 'kotlin', 'scala', 'ruby', 'phyton', 
+'java', 'csharp', 'sql', 'objectivec', 'basic', 'dart', 'go', 'lisp', 
+'reason', 'visualbasic', 'typescript', 'perl', 'scheme', 'erlang', 
+'elixir', 'haskell', 'javascript', 'cplusplus'];
 
 let selectedWord = wordsArray[Math.floor(Math.random() * wordsArray.length)];
 
-const correctLetters = ['v', 'u', 'e',];
+const correctLetters = ['a', 'e', 'i', 'o', 'u'];
 const wrongLetters = [];
 
 // Show hidden word
